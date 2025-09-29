@@ -8,5 +8,6 @@ for i in range(1, N + 1):
 """
 
 for i in range(101):
-    if i % 10 == 3:
-        print(i)
+    if i % 10 != 4:
+        continue
+    print(i)
