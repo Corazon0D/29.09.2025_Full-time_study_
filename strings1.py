@@ -6,6 +6,6 @@ print('Строка "' + sting + '" имеет длину:', length)
 
 symb = sting[-1]# sting[lenth -1]
 
-for index in range(-1, -(length + 1), -1):
-    print(sting[index])
+for index in reversed(sting):
+    print(index, end="")
 # print(sting[3]).
