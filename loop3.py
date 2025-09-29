@@ -1,7 +1,8 @@
 # else и while
 # else  выполняется, если цикл завершился естественно
+import random
 from itertools import count
-num = 6 # 0 ... 10
+num = random.randint(0, 10) # 0 ... 10
 attemts = 0
 
 while attemts < 3:
