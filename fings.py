@@ -8,8 +8,10 @@ for i in range(1, N + 1):
 """
 # while True # вечный цикл
 
-string = input("Введите любую строку или exit для завершения:")
-
-while string != "exit":
-    print('Вы ввели: ' + string)
+# string = input("Введите любую строку или exit для завершения:")
+while True:
     string = input("Введите любую строку или exit для завершения:")
+    if string == 'exit':
+        break
+        print('Вы ввели: ' + string)
+
