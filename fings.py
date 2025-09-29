@@ -15,3 +15,4 @@ while True:
         break
         print('Вы ввели: ' + string)
 
+print('Вы ввели: exit. Программа завершена')
