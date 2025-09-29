@@ -6,20 +6,8 @@ for i in range(1, N + 1):
     else:
         print('Первый')
 """
-from xml.dom.expatbuilder import FILTER_SKIP
 
-"""
-string = input("Введите любую строку: ")
-
-while string != '':
-    string = input("Введите любую строку: ")
-
-print("Вы ничего не ввели. Программа завершена")
-"""
-loop = True
-while loop:
-    string = input("Введите любую строку: ")
-    if not string:
-        loop = False
-
-print("Вы ничего не ввели. Программа завершена")
+for i in range(30):
+    if i == 5:
+        break
+    print(i)
