@@ -1,7 +1,7 @@
 # Моржовый оператор (walrus operator - :=)
-string = input("Введите любую строку или exit для завершения:")
 
-while string != '':
+
+while (string := input("Введите любую строку или exit для завершения:")) != '':
     string = input("Введите любую строку или exit для завершения:")
     if string == 'exit':
         break
