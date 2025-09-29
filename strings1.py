@@ -6,4 +6,4 @@ print('Строка "' + sting + '" имеет длину:', lenth)
 
 symb = sting[lenth -1]
 print('Последний символ:', symb)
-# print(sting[3])
+# print(sting[3]).
