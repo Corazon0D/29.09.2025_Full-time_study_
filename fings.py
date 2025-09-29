@@ -6,8 +6,10 @@ for i in range(1, N + 1):
     else:
         print('Первый')
 """
+# while True # вечный цикл
 
-for i in range(101):
-    if i % 10 != 4:
-        continue
-    print(i)
+string = input("Введите любую строку или exit для завершения:")
+
+while string != "exit":
+    print('Вы ввели: ' + string)
+    string = input("Введите любую строку или exit для завершения:")
