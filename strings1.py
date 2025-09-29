@@ -1,11 +1,8 @@
-# СТРОКИ, ИНДЕКСЫ
-sting = input('Введите любую строку: ')
-length = len(sting) # число элементов итерируемого объекта
+# Срезы (s, s, s)
 
-print('Строка "' + sting + '" имеет длину:', length)
 
-symb = sting[-1]# sting[lenth -1]
+string = input('Введите любую строку: ')
+length = len(string) # число элементов итерируемого объекта
 
-for index in reversed(sting):
-    print(index, end="")
-# print(sting[3]).
+print(string[5 : 8])
+# Вентилятор -> лят
